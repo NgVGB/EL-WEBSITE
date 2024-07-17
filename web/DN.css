@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-image: url('images/bgDN.png');
+  }
+
+  form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.644);
+    border: 1px solid #fff;
+	  border-radius: 7px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    margin-top: 0;
+    color: white;
+    border-bottom: 1px solid #fff;
+  }
+
+  input[type="text"],
+  select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    padding: 10px 10px 10px 40px; 
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px 24px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/442/086/original/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg);
+  }
+
+  input[type="password"],
+  select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    padding: 10px 10px 10px 40px; 
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px 24px;
+    background-image: url(https://img.icons8.com/ios/50/000000/lock-2--v1.png);
+  }
+
+  button[type="submit"],[type="reset"] {
+    display: inline;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 18px;
+    cursor: pointer;
+	  background: #1120f1fa;
+    background: -webkit-linear-gradient(to right, hsl(226, 71%, 35%), #2f42af); 
+    background: linear-gradient(to right, hsl(226, 71%, 35%), #2f42af);
+	  border-radius: 5px;
+  }
+
+  button[type="submit"]:hover {
+    background: hsl(6, 74%, 79%);
+    background: -webkit-linear-gradient(to right, hsl(226, 80%, 66%), #2f42af); 
+    background: linear-gradient(to right, hsl(226, 80%, 66%), #2f42af);
+  }
+
+  button[type="reset"]:hover {
+    background: hsl(6, 74%, 79%);
+    background: -webkit-linear-gradient(to right, hsl(226, 80%, 66%), #2f42af); 
+    background: linear-gradient(to right, hsl(226, 80%, 66%), #2f42af);
+  }
+
+h2 {
+  text-align: center;
+}
+
+.titleDN {
+	font-size: 25px;
+	color: rgb(0, 0, 0);
+}
+
+.titleDN p {
+	font-size: 19px;
+	color: rgb(0, 0, 0);
+}
+
+.title2 {
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+}
+
+.titlewarn {
+  background-color: #ffffff94;
+  padding: 30px;
+  width: 30%;
+  border-radius: 5px;
+  display: block;
+	font-size: 18px;
+	color: red;
+}
+
+.imgHome img {
+	margin-left: 145px;
+}
